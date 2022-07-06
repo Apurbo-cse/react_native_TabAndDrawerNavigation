@@ -32,7 +32,6 @@ import GreetingsPending from '../../Screens/Greetings/GreetingsPending';
 import GreetingsCreate from '../../Screens/Greetings/GreetingsCreate';
 import GreetingsCompleted from '../../Screens/Greetings/GreetingsCompleted';
 import GreetingsRegistered from '../../Screens/Greetings/GreetingsRegistered';
-import GreetingsForwardToUser from '../../Screens/Greetings/GreetingsForwardtoUser';
 import GreetingsEvaluation from '../../Screens/Greetings/GreetingsEvaluation';
 import QnaAll from '../../Screens/QnA/QnaAll';
 import QnaApproved from '../../Screens/QnA/QnaApproved';
@@ -44,6 +43,7 @@ import FangroupAll from '../../Screens/Fangroup/FangroupAll';
 import FangroupAccepted from '../../Screens/Fangroup/FangroupAccepted';
 import FangroupRejected from '../../Screens/Fangroup/FangroupRejected';
 import FangroupInvitation from '../../Screens/Fangroup/FangroupInvitation';
+import GreetingsForwardToUser from '../../Screens/Greetings/GreetingsForwardToUser';
 const StackDashbord = createNativeStackNavigator();
 
 const DashboardStack = () => {

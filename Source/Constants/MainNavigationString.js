@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 /* eslint-disable quotes */
 /* eslint-disable no-dupe-keys */
 /* eslint-disable comma-dangle */
@@ -12,12 +13,22 @@ export default {
 
     // post 
     POST:'Post',
+    POSTALL:'PostAll',
+    POSTAPPROVED:'PostApproved',
+    POSTPENDING:'PostPending',
+    POSTREJECTED:'PostRejected',
+    POSTCREATE:'PostCreate',
 
     //Livechat
     LIVECHAT:'LiveChat',
 
     //Audition
     AUDITION:'Audition',
+    AUDITIONALL:'AuditionAll',
+    AUDITIONLIVEEVENT:'AuditionLiveEvents',
+    AUDITIONAPPROVED:'AuditionApproved',
+    AUDITIONPENDING:'AuditionPending',
+    AUDITIONCREATE:'AuditionCreate',
 
     //Star Showcase
     STARSHOWCASE:'StarShowcase',
@@ -35,10 +46,28 @@ export default {
 
     //Greeting
     GREETINGS:'Greetings',
+    GREETINGSALL:'GreetingsAll',
+    GREETINGSAPPROVED:'GreetingsApproved',
+    GREETINGSPENDING:'GreetingsPending',
+    GREETINGSCOMPLETED:'GreetingsCompleted',
+    GREETINGSREGISTERED:'GreetingsRegisteredToUser',
+    GREETINGSFORWARD:'GreetingsForwardToUser',
+    GREETINGSEVALUATION:'GreetingsEvaluation',
+    GREETINGSCREATE:'GreetingsCreate',
 
     // Qna 
     QNA:'Qna',
+    QNAALL:'QNAAll',
+    QNAAPPROVED:'QNAApproved',
+    QNAPENDING:'QNAPending',
+    QNACOMPLETED:'QNACompleted',
+    QNAREJECTED:'QNARejected',
+    QNACREATE:'QNACreate',
 
     //FANGROUP
-    FANGROUP:'Fangroup'
+    FANGROUP:'Fangroup',
+    FANGROUPALL:'FangroupAll',
+    FANGROUPACCEPTD:'FangroupAccepted',
+    FANGROUPREJECTED:'FangroupRejected',
+    FANGROUPINVITATION:'FangroupInvitation',
 }

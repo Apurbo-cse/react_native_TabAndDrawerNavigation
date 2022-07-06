@@ -17,9 +17,7 @@ function Dashboard() {
       <View style={styles.ContainerCard}>
         <View style={styles.Main}>
           <View>
-            <TouchableOpacity
-              style={styles.Card}
-              onPress={() => Navigation.navigate(MainNavigationString.POST)}>
+            <TouchableOpacity style={styles.Card} onPress={() => Navigation.navigate(MainNavigationString.POST)}>
               <Image source={imagePath.Post} style={styles.postImage} />
               <Text style={styles.badge}>
                 <Text>2</Text>
